@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "default": "Es würde uns freuen, mehr über Ihre Situation zu erfahren."
+    },
+    "Untertitel": {
+      "type": "text",
+      "default": "Lassen Sie sich noch heute kostenlos beraten, auch wenn Sie unsicher sind. Je früher Sie jetzt handeln, desto eher können wir Ihnen helfen, Ihre Situation zu bewältigen."
+    },
+    "Button": {
+      "type": "string",
+      "default": "Beratung vereinbaren"
+    },
+    "Beschreibung": {
+      "type": "text",
+      "default": "Eine Anwaltskanzlei mit Sitz in Aschaffenburg.",
+      "required": false
+    }
+  }
+}

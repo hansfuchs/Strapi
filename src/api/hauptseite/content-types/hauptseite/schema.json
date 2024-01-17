@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "hauptseites",
+  "info": {
+    "singularName": "hauptseite",
+    "pluralName": "hauptseites",
+    "displayName": "Hauptseite",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titelsektion": {
+      "displayName": "TitelSektion",
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.titel-sektion"
+    },
+    "Vorstellung": {
+      "displayName": "Vorstellung",
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.vorstellung"
+    },
+    "Erfolgsberichte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.erfolgsberichte"
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.team"
+    },
+    "Rezensionen": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.reviews"
+    },
+    "Fachgebiete": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.fachgebiete"
+    },
+    "Spezialgebiete": {
+      "displayName": "Spezialgebiete",
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.spezialgebiete"
+    },
+    "DAVText": {
+      "type": "text",
+      "required": true,
+      "default": "Wir sind seit 2000 aktives Mitglied im Deutschen Anwaltsverein."
+    },
+    "Kanzlei": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.kanzleisektion"
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hauptseite.faq"
+    },
+    "Kontaktformular": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kontakt.kontaktformular"
+    }
+  }
+}

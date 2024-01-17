@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hauptseite_kanzleiwerts",
+  "info": {
+    "displayName": "Kanzleiwert",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "text"
+    },
+    "Beschreibung": {
+      "type": "text"
+    },
+    "Bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

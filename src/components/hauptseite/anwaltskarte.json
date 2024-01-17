@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_hauptseite_anwaltskartes",
+  "info": {
+    "displayName": "Anwaltskarte",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Jobtitel": {
+      "type": "string",
+      "default": "Rechtsanwalt",
+      "required": true
+    },
+    "Name": {
+      "type": "text",
+      "default": "Markus L. Fischer",
+      "required": true
+    },
+    "Beschreibung": {
+      "type": "text",
+      "default": "Hat ihr Arbeitgeber Ihnen gekündigt oder einen Aufhebungsvertrag angeboten? Dann müssen Sie schnell handeln. Ich helfe Ihnen gerne jederzeit dabei.",
+      "required": true
+    },
+    "Fachgebiete": {
+      "type": "text",
+      "default": "Zivilrecht,Arbeitsrecht,Handelsrecht,Immobilien- und Mietrecht",
+      "required": true
+    },
+    "Bild": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Hintergrundbild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

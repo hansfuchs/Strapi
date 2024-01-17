@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_hauptseite_fachgebiets",
+  "info": {
+    "displayName": "Fachgebiet",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "Fachgebiet": {
+      "type": "string",
+      "default": "Arbeitsrecht",
+      "required": true
+    },
+    "Hintergrundbild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hauptseite_erfolgsberichtes",
+  "info": {
+    "displayName": "Erfolgsberichte",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "default": "Zuletzt gewonnene Fälle",
+      "required": true
+    },
+    "Untertitel": {
+      "type": "text",
+      "default": "Hier finden Sie einen Auszug aus Rechtsfällen, für die wir vor Kurzem ein Urteil zugunste unserer Mandanten erringen konnten.",
+      "required": true
+    },
+    "Rechtsfall": {
+      "displayName": "Rechtsfall",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.rechtsfall"
+    }
+  }
+}

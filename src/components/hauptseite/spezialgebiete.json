@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hauptseite_spezialgebietes",
+  "info": {
+    "displayName": "Spezialgebiete",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true
+    },
+    "Beschreibung": {
+      "type": "text",
+      "required": true
+    },
+    "Spezialfall": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.spezialfall-vorschau"
+    }
+  }
+}

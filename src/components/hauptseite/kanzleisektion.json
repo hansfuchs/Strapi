@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_hauptseite_kanzleisektions",
+  "info": {
+    "displayName": "Kanzleisektion",
+    "icon": "puzzle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "text"
+    },
+    "Beschreibung": {
+      "type": "text"
+    },
+    "Kanzleiwert": {
+      "displayName": "Kanzleiwert",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.kanzleiwert"
+    },
+    "Bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

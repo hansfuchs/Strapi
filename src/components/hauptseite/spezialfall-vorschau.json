@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hauptseite_spezialfall_vorschaus",
+  "info": {
+    "displayName": "SpezialfallVorschau",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "default": "Kündigung leicht anfechten dank Kündigungsschutz"
+    },
+    "Bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hauptseite_fachgebietes",
+  "info": {
+    "displayName": "Fachgebiete",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "text",
+      "default": "Unvergleichliche Expertise, in jedem Fachgebiet",
+      "required": true
+    },
+    "Beschreibung": {
+      "type": "text",
+      "default": "Unser Team von kompetenten und engagierten Rechtsberatern steht Ihnen bei allen erdenklichen Problemen tatkräftig zur Seite.",
+      "required": true
+    },
+    "Fachgebiet": {
+      "displayName": "Fachgebiet",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.fachgebiet"
+    }
+  }
+}

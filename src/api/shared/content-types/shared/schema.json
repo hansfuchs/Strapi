@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "shareds",
+  "info": {
+    "singularName": "shared",
+    "pluralName": "shareds",
+    "displayName": "Shared"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Kanzleiname": {
+      "type": "string",
+      "default": "Rechtsanwälte XY",
+      "required": true
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Email": {
+      "type": "text",
+      "required": true
+    },
+    "Telefonnummer": {
+      "type": "text",
+      "required": true
+    },
+    "Strasse": {
+      "type": "text",
+      "required": true
+    },
+    "PLZ": {
+      "type": "text",
+      "required": true
+    },
+    "Stadt": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

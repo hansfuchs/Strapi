@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hauptseite_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "default": "Haben Sie noch offene Fragen?",
+      "required": true
+    },
+    "Untertitel": {
+      "type": "text",
+      "default": "Lesen Sie sich bitte erst unsere häufig gestellten Fragen durch, bevor Sie eine Kontaktanfrage stellen.",
+      "required": true
+    },
+    "Frage": {
+      "displayName": "Frage",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.frage"
+    }
+  }
+}

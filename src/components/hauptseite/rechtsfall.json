@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hauptseite_rechtsfalls",
+  "info": {
+    "displayName": "Rechtsfall",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Urteil": {
+      "type": "text",
+      "default": "Urheberrecht",
+      "required": true
+    },
+    "Titel": {
+      "type": "string",
+      "default": "Unerlaubte Verwendung geschützter Musik in Online-Werbung",
+      "required": true
+    },
+    "Beschreibung": {
+      "type": "text",
+      "default": "...",
+      "required": true
+    }
+  }
+}

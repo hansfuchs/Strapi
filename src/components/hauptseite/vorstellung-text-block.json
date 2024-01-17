@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_hauptseite_vorstellung_text_blocks",
+  "info": {
+    "displayName": "VorstellungTextBlock",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true
+    },
+    "Absatz1": {
+      "type": "text",
+      "required": true
+    },
+    "Absatz2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

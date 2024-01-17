@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_hauptseite_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "puzzle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "text",
+      "default": "Das Ganze Jahr über für Sie erreichbar, wann immer Sie uns brauchen",
+      "required": true
+    },
+    "Beschreibung": {
+      "type": "text",
+      "default": "Unser Team von kompetenten und engagierten Rechtsberatern steht Ihnen bei allen erdenklichen Problemen tatkräftig zur Seite.",
+      "required": true
+    },
+    "Anwaltskarte": {
+      "displayName": "Anwaltskarte",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.anwaltskarte"
+    }
+  }
+}

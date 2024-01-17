@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_kontakt_kontaktformulars",
+  "info": {
+    "displayName": "Kontaktformular",
+    "icon": "puzzle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "text",
+      "default": "Vereinbaren Sie ein unverbindliches Erstgespräch mit uns",
+      "required": true
+    },
+    "Oeffnungszeiten": {
+      "type": "text",
+      "default": "Mo.-Fr. 08:00-16:00 Uhr",
+      "required": true
+    }
+  }
+}

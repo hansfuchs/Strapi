@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_hauptseite_rezensionen",
+  "info": {
+    "displayName": "Rezensionen",
+    "icon": "puzzle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "text",
+      "required": true,
+      "default": "Das sagen unsere Mandanten über uns"
+    },
+    "Untertitel": {
+      "type": "text",
+      "required": true,
+      "default": "Unsere Anwälte haben eine durchschnittliche Bewertung von 4.8 Sternen auf Anwalt.de:"
+    },
+    "Rezension": {
+      "displayName": "Review",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.review"
+    }
+  }
+}

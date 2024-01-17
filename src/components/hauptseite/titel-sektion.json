@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_hauptseite_titel_sektions",
+  "info": {
+    "displayName": "TitelSektion",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "default": "Ihre Rechtsanwälte für alle Fälle"
+    },
+    "Untertitel": {
+      "type": "text",
+      "default": "Wir sorgen dafür, dass Sie Ihr Recht bekommen. Lassen Sie sich umfassend beraten, unabhängig von Ihrer Situation."
+    },
+    "Button": {
+      "type": "string",
+      "default": "Beratung vereinbaren"
+    },
+    "Reviewtext": {
+      "type": "text",
+      "default": "100+ Google Reviews"
+    },
+    "Hintergrundbild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

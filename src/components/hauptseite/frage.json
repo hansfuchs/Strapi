@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_hauptseite_frages",
+  "info": {
+    "displayName": "Frage",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "Frage": {
+      "type": "text",
+      "required": true,
+      "default": "Ich wurde von meinem Arbeitgeber fristlos gekündigt. Was kann ich tun?"
+    },
+    "Antwort": {
+      "type": "text",
+      "default": "...",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_hauptseite_vorstellungs",
+  "info": {
+    "displayName": "Vorstellung",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true,
+      "default": "Erstklassige Strafverteidigigung"
+    },
+    "Bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "VorstellungTextBlock": {
+      "displayName": "VorstellungTextBlock",
+      "type": "component",
+      "repeatable": true,
+      "component": "hauptseite.vorstellung-text-block"
+    }
+  }
+}
